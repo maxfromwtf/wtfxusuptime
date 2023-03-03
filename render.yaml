@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: wtfxusuptimekuma
+    env: docker
+    repo: https://github.com/maxfromwtf/wtfxusuptime.git
+    region: oregon
+    plan: starter
+    branch: master
+    rootDir: wtfxusuptime
+    healthCheckPath: /
+
